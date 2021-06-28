@@ -1,5 +1,15 @@
 // Settings file containing Foundation defaults
 
+// Defaults old version by owen
+//$ratio: golden_ratio() !default;
+//$base-size: 16px !default;
+//$round-pixels: true !default;
+$ratio: 2.5em;
+$modularscale: (
+        base: 1em,
+        ratio: 1.5
+);
+
 // Grid Settings
 
 $rowWidth: 1000px !default;
